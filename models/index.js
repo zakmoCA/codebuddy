@@ -1,11 +1,12 @@
 import { Sequelize } from 'sequelize'
 import user from './user.js'
 import role from './role.js'
+import { dbConfig } from '../config.js';
 
-const sequelize = new Sequelize('database', 'username', 'password', {
-  host: 'localhost',
+const sequelize = new Sequelize(dbConfig.database, dbConfig.username, dbConfig.password, {
+  host: dbConfig.host,
   dialect: 'postgres', 
-});
+})
 
 const db = {}
 
