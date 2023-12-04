@@ -10,15 +10,23 @@ an interactive IDE web-app which hosts multiple languages, and will later have r
 
 ## features TODO 
 
+### general
 - [ ] model relationships
 - [ ] user auth
 - [ ] user register/login page and functionality
-- [ ] user file history page and plumbing
-- [ ] user chat history page and plumbing
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] user homepage plumbing
+- [ ] user project/file history page plumbing
+- [ ] user chat history page plumbing
+- [ ] login page layout and styling
+- [ ] homepage layout and styling
+- [ ] projects page layout and styling
+- [ ] editor page layout and styling
+
+### app logic
+- [ ] load at least 5 languages
+- [ ] 
+- [ ] 
+- [ ] 
 
 ## miscellaenous TODO
 
