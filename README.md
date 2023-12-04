@@ -4,7 +4,15 @@ An interactive IDE web-app which hosts multiple languages, and will later have r
 
 ## Todo
 
+#### miscellaenous
+
 - [ ] figure out why nodemon and ts-node are not executing my .ts files, npx tsx works though
+
+#### features
+
+- [ ] user auth
+- [ ] user file history page and plumbing
+- [ ] user chat history page and plumbing
 
 ## Design
 
