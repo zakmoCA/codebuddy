@@ -19,10 +19,11 @@ An interactive IDE web-app which hosts multiple languages, and will later have r
 1. Application will be built with vanilla js, html/css
 2. Once complete, will rewrite in react TS 
 
-## What's done so far
+## What's done so far, and date completed
 
-- [x] Requirements
-- [x] Dependencies
+- [x] Requirements, **04/12/23**
+- [x] Dependencies sussed, **04/12/23**
+- [x] Base models, **05/12/23**
 
 
 
