@@ -8,7 +8,7 @@ An interactive IDE web-app which hosts multiple languages, and will later have r
 
 ## Design
 
-1. Application will be built with vanilla, html/css
+1. Application will be built with vanilla js, html/css
 2. Once complete, will rewrite in react TS 
 
 ## What's done so far
