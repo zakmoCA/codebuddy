@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homepage</title>
 </head>
-<body data-page="homepage">
 
+<body data-page="homepage">
+  <header>
+    <nav>
+
+    </nav>
+  </header>
+  <main>
+    <section class="explorer-tab">
+      <div class="search-container">
+        <input type="search" id="site-search" name="explorer-search" />
+        <button>Search</button>
+      </div>
+      <div class="files-container">
+        <div class="file-toolbar">
+
+        </div>
+        <div class="repo-files">
+          
+        </div>
+      </div>
+    </section>
+    <section class="ide">
+      <section class="hero-banner">
+        <div>
+          <!-- hero -->
+        </div>
+        <div>
+          <button id="hero-create-repl">Create Repl</button>
+        </div>
+      </section>
+      <section class="recently-opened-container">
+        <div class="explorer">
+
+        </div>
+        <div class="ide">
+          <div class="creation-toolbar">
+            <button id="create-repl">Create Repl</button>
+            <!-- create repl shortcuts for popular  -->
+            <button id="h-css-js"> Create HTML, CSS, JS</button>
+            <button id="create-python">Create Python</button>
+          </div>
+          <div class="header-toolbar-container">
+            <p>Recent Files</p>
+            <button id="all-files">View all files</button>
+          </div>
+          <div class="recent-project">
+            <!-- dynamically render projects here -->
+            <!-- project element -->
+            <!-- meatball menu which opens dropdown at end of div -->
+            <!-- dropdown will have edit, and delete options -->
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
   <script src="../client/js/main.js"></script>
 </body>
+
 </html>
