@@ -1,5 +1,5 @@
 import http from 'http'
-import { registerUser, loginUser, updateUserProfile } from './controllers/UserController.js'
+import { registerPath, loginPath, updateProfilePath } from './controllers/UserController.js'
 
 // forego using framework like express until finished with vanilla js version of app
 
@@ -19,12 +19,12 @@ const handleRequest = (req, res) => {
   const method = req.method
 
   const routes = {
-    '/api/users/register': { 'POST': registerUser },
-    '/api/users/login': { 'POST': loginUser },
-    '/api/users/update': { 'PUT': updateUserProfile }
+    '/api/users/register': { 'POST': registerPath },
+    '/api/users/login': { 'POST': loginPath },
+    '/api/users/update': { 'PUT': updateProfilePath }
   }
 
-  if (handleDynamicRoute(req, res, pathname, 'PUT', /\/api\/users\/update\/([0-9]+)/, updateUserProfile)) {
+  if (handleDynamicRoute(req, res, pathname, 'PUT', /\/api\/users\/update\/([0-9]+)/, updateProfilePath)) {
     // dynamic routes below
   } else {
     // errors

@@ -1,4 +1,7 @@
-function registerUser(req, res) {
+import { registerUser, loginUser, updateProfile } from '../client/js/login'
+
+//----/api/users/register
+function registerPath(req, res) {
   let body = ''
 
   req.on('data', chunk => {
@@ -15,8 +18,8 @@ function registerUser(req, res) {
   })
 }
 
-
-function loginUser(req, res) {
+//----/api/users/login
+function loginPath(req, res) {
   let body = ''
 
   req.on('data', chunk => {
@@ -33,8 +36,8 @@ function loginUser(req, res) {
   })
 }
 
-
-function updateUserProfile(req, res, userId) {
+//----/api/users/update
+function updateProfilePath(req, res, userId) {
   let body = ''
 
   req.on('data', chunk => {
