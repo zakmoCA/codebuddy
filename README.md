@@ -8,26 +8,6 @@ an interactive IDE web-app which hosts multiple languages, and will later have r
 2. once complete, will rewrite in react TS 
 
 
-## features TODO 
-
-### general
-- [ ] model relationships
-- [ ] user auth
-- [ ] user register/login page and functionality
-- [ ] user homepage plumbing
-- [ ] user project/file history page plumbing
-- [ ] user chat history page plumbing
-- [ ] login page layout and styling
-- [ ] homepage layout and styling
-- [ ] projects page layout and styling
-- [ ] editor page layout and styling
-
-### app logic
-- [ ] load at least 5 languages
-- [ ] 
-- [ ] 
-- [ ] 
-
 ## miscellaenous TODO
 
 - [ ] figure out why nodemon and ts-node are not executing my .ts files, npx tsx works though
