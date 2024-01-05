@@ -6,7 +6,7 @@ import file, { File } from './file'
 import chatThread, { ChatThread } from './chat_thread'
 import message, { Message } from './message'
 import projectChat, { ProjectChat } from './project_chat'
-import { dbConfig } from '../config'
+import { dbConfig } from '../../config'
 
 interface Db {
   sequelize: Sequelize
